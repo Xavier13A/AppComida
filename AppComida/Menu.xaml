@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppComida.Menu">
+   
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu"
+                
+                HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"  />
+            <Image Source="https://i.pinimg.com/originals/ae/d0/da/aed0daa947c99a4a5eadebe5dc65c80d.jpg"/>
+            <Button x:Name="btnSalchi_Papa" Text= "Salchi Papa" Clicked="btnSalchi_Papa_Clicked"/>
+
+            <Image Source="https://static.wixstatic.com/media/71d7d3_218c579242b5462f867d33199a07bd02~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"/>
+            <Button x:Name="btnAPapi_Pollo" Text= "Papi Pollo" Clicked="btnAPapi_Pollo_Clicked"/>
+            
+            <Image Source="https://m.media-amazon.com/images/I/51+EiPSdH8L._AC_SY580_.jpg"/>
+            <Button x:Name="btnAmurgesa" Text= "hamburguesas" Clicked="btnAmurgesa_Clicked"/>
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

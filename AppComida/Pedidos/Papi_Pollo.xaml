@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppComida.Pedidos.Papi_Pollo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tu Pedido Esta Casi Listo"
+                
+                   
+               HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black" />
+            <Image Source="https://thumbs.dreamstime.com/b/repartidor-lindo-hombre-montando-moto-ilustraci%C3%B3n-de-vector-entrega-comida-r%C3%A1pida-vectorial-aislada-en-blanco-mensajero-con-189714599.jpg"/>
+
+            <Label Text=" PAPIPOLLO"
+                
+               HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black" />
+
+            <Label Text="3.00"
+                
+               HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black" />
+
+           
+            <Button x:Name="Aceptar" Text= "Aceptar" Clicked="Aceptar_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
